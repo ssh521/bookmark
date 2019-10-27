@@ -9,7 +9,6 @@ from django.views.generic.edit import DeleteView
 
 
 from django.urls import reverse_lazy
-
 from .models import Bookmark
 
 # 리스트 클래스
