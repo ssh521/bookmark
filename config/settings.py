@@ -42,11 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bookmark',
-<<<<<<< Updated upstream
     'bootstrap',
-=======
     'photo',
->>>>>>> Stashed changes
 ]
 
 MIDDLEWARE = [
