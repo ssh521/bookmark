@@ -17,7 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+<<<<<<< Updated upstream
     path('', include('bootstrap.urls')),
+=======
+    path('', include('bookmark.urls')),
+>>>>>>> Stashed changes
     path('bookmark/', include('bookmark.urls')),
     path('admin/', admin.site.urls),
     path('bootstrap/', include('bootstrap.urls')),

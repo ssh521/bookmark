@@ -27,7 +27,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
-
 # Application definition
 
 # bookmark 앱을 등록하면, bookmark 폴더를 실행할 수 있다.
@@ -43,7 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bookmark',
+<<<<<<< Updated upstream
     'bootstrap',
+=======
+    'photo',
+>>>>>>> Stashed changes
 ]
 
 MIDDLEWARE = [
@@ -127,3 +130,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
+
+# 업로드파일 폴더지정 global
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
